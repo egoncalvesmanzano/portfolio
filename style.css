@@ -52,19 +52,18 @@ div {
     margin: 10px 0px;
     box-shadow: 0px 2px 2px #000000;
     color: #837E9F;
-    width: 348px;
+    width: 248px;
 }
-
-
 
 li { 
     list-style-type: none; 
     display: flex;
-    gap: 16px;
-    padding-top: 25px;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-top: 1em;
+    margin-left: -20px;
 
 }
-
 
 .container {
     display: grid;
@@ -72,7 +71,7 @@ li {
     grid-gap: 30px;
     border: 1px solid blue;
     width: 100vw;
-    /*height: 100vh;*/
+    height: 200vh;
 }
 
 .img1 {
@@ -106,4 +105,10 @@ li {
 .litexticon {
     font-size: small;
     font-weight: 400;
+}
+
+.hdoppler {
+    text-align: left;
+    padding-left: 20px;
+    font-size:medium;
 }
